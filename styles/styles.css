@@ -1,0 +1,99 @@
+ @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;800&display=swap');
+
+:root {
+    --head-color: #1F2937;
+    --padding: 15px 150px;
+    --heading-color: #F9FAF8;
+    --link-color: #E5E7EB;
+    --main-font: 'Mukta', sans-serif;
+    --button-bg: #3882F6;
+
+} 
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: var(--main-font);
+}
+
+header {
+    display: flex;
+    justify-content: space-between
+    ;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+    background-color: var(--head-color);
+    padding: var(--padding);
+}
+.left-links > h1 {
+    color:var(--heading-color);
+    font-size: 24PX;
+    flex-shrink: 0; 
+}
+h1 > a {
+    color: var(--heading-color);
+    text-decoration: none;
+}
+.right-links > ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    
+}
+.link-header {
+    color: var(--link-color);
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.head-content {
+    display: flex;
+    flex: auto;
+    background-color: var(--head-color);
+    padding: 80px 150px;
+    gap: 40px;
+    justify-content: space-between;
+    
+}
+
+.right-content > img {
+    width: 400px;
+    height: auto;
+    border-radius: 5%;
+}
+.left-content {
+    color: var(--heading-color);
+}
+.left-content > h1 {
+    width: 400px;
+    font-size: 48px;
+    color: var(--heading-color);
+}
+.left-content > p {
+    color: var(--link-color);
+    font-size: 18px;
+
+}
+.left-content > button{
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+     
+    background-color: var(--button-bg);
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+}
+button > a {
+    color: var(--link-color);
+    text-decoration: none;
+}
