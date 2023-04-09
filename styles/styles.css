@@ -27,6 +27,7 @@ header {
     display: flex;
     justify-content: space-between
     ;
+    
     align-items: center;
     flex-wrap: wrap;
     background-color: var(--head-color);
@@ -56,6 +57,7 @@ h1 > a {
 .head-content {
     display: flex;
     flex: auto;
+    flex-wrap: wrap;
     background-color: var(--head-color);
     padding: 80px 250px;
     gap: 40px;
@@ -79,6 +81,7 @@ h1 > a {
 .left-content > p {
     color: var(--link-color);
     font-size: 18px;
+    width: 500px;
 
 }
 .left-content > button{
