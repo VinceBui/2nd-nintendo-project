@@ -121,14 +121,15 @@ button > a {
     width: 200px;
     height: 200px;
     border: 3px solid var(--button-bg);
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .slogan-container {
     display: flex;
     flex-direction: column;
+    gap: 10px;
     margin: 100px auto;
     align-items: center;
-    padding: 100PX 250px;
+    padding: 100px 250px;
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
@@ -140,4 +141,42 @@ button > a {
     font-weight: bold;
     font-size: 22px;
 
+}
+.signup-box {
+    width: 80%;
+    background-color: var(--button-bg);
+    display: flex;
+    margin: 0 auto;
+    padding: 45px 30px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    color: var(--heading-color);
+}
+.signup-box > .right-button > button {
+    width: 120px;
+    height: 35px;
+    margin-top: 20px;
+     
+    background-color: var(--button-bg);
+    text-align: center;
+    border: 2px solid var(--heading-color);
+    border-radius: 5px;
+}
+   
+
+
+.right-button > button > a {
+    background-color: var(--button-bg);
+    flex-shrink: 0;
+    font-weight: 600;
+}
+
+footer {
+    background-color: var(--head-color);
+    color: var(--heading-color);
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 100px;
 }
